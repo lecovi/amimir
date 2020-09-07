@@ -21,6 +21,14 @@ brew install blueutil
 ./aurora.sh sleep
 ```
 
+## ToDo
+
+- [ ] Install subcommand: adds `amimir` on user's PATH (and installs `blueutil` ?)
+- [ ] Uninstall subcommand: removes `amimir` from user's PATH
+- [ ] Clean subcommand: removes `blueutil`?
+- [ ] Add logging
+- [ ] Instructions for calling with a shortcut 
+
 ----
 
 Thanks [@Nassty](https://github.com/Nassty) for suggesting application name.
