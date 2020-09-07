@@ -1,4 +1,4 @@
-# aurora
+# AMIMIR
 CLI utility for shutting down BT and WiFi and send your MacOS to sleep 
 
 ![A Mimir Meme](img/amimir.jpeg)
@@ -13,12 +13,33 @@ brew install blueutil
 
 ## How it works
 
+### Sleep
+
 - Shutdown bluetooth using `blueutil`
 - Shutdown WiFi using `networksetup`
 - Put your Mac to sleep using `pmset`
 
 ```
-./aurora.sh sleep
+./amimir.sh sleep
+```
+
+### Wake
+
+- Power on bluetooth using `blueutil`
+- Power on WiFi using `networksetup`
+
+```
+./amimir.sh wake
+```
+
+### Status
+
+- Prints bluetooth and WiFi Status
+
+```
+./amimir.sh status
+Bluetooth is ON
+Wi-Fi Power (en0): On
 ```
 
 ## ToDo
